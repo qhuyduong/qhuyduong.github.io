@@ -16,6 +16,3 @@ entries:
       show_more: true
       show_more_text: see more...
       show_more_url: archive.html
-
-  - title: rss
-    url: feed.xml
