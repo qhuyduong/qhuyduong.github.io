@@ -1,10 +1,21 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+---
 entries:
-  - title: About me
+  - title: info
     entries:
-      - title: Huy Duong
+      - title: email
         url: mailto:qhuyduong92@gmail.com
       - title: github
         url: https://github.com/qhuyduong
 
-  - title: Posts
-    post_list: true
+  - title: recent posts
+    post_list:
+      limit: 8
+      show_more: true
+      show_more_text: see more...
+      show_more_url: archive.html
+
+  - title: rss
+    url: feed.xml
